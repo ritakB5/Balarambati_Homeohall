@@ -1,14 +1,16 @@
 import React from "react";
+import "./Doctors.css";
 
 function Doctors() {
   return (
-    <div className="container">
+    <div className="doctor">
+      <div className="container ">
       <h1 className="text-center">People</h1>
       <div className="row mt-5 pt-2 ">
         <div className="col-2"></div>
         <div className="col-4 text-center ">
           <img
-            src="media/images/nithin-kamath.jpg"
+            src="media/images/people3.jpg"
             alt="ceo"
             style={{ borderRadius: "100%", width: "70%" }}
             className="mb-4"
@@ -54,7 +56,7 @@ function Doctors() {
         </div>
         <div className="col-4 text-center ">
           <img
-            src="media/images/nithin-kamath.jpg"
+            src="media/images/people1.jpg"
             alt="ceo"
             style={{ borderRadius: "100%", width: "70%" }}
             className="mb-4"
@@ -68,7 +70,7 @@ function Doctors() {
         <div className="col-2"></div>
         <div className="col-4 text-center ">
           <img
-            src="media/images/nithin-kamath.jpg"
+            src="media/images/people2.webp"
             alt="ceo"
             style={{ borderRadius: "100%", width: "70%" }}
             className="mb-4"
@@ -94,6 +96,7 @@ function Doctors() {
         </div>
         <div className="col-1"></div>
       </div>
+    </div>
     </div>
   );
 }

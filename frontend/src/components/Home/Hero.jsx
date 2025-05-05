@@ -1,12 +1,14 @@
 import React from "react";
+import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="container mt-2 pt-2 mb-5 ">
+    <div className="hero">
+      <div className="container  pt-2 mb-5 pb-5 ">
       <img
         src="media/images/homeopathy-hero.webp"
-        className="mx-auto d-block mt-5 mb-5"
-        style={{ height: "50%", width: "50%",borderRadius:"100px" }}
+        className=" mx-auto d-block mt-5 mb-5"
+        style={{ height: "50%", width: "50%",borderRadius:"100px"  }}
         alt="hero"
       />
       <div className="row text-center">
@@ -22,6 +24,7 @@ function Hero() {
           Sign up for free
         </button>
       </div>
+    </div>
     </div>
   );
 }
